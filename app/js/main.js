@@ -14,22 +14,31 @@ $(document).ready( function() {
 	}, 50 );
 
 	
-	setInterval(function() {
-		var audio = document.createElement("audio");
-		if (audio != null && audio.canPlayType && audio.canPlayType("audio/mp3"))
-		{
-			audio.src = "sound/hypnotoad.mp3";
-			audio.loop = true;
-			audio.play();
-		}
-		$('body').append($(audio));
-		// audio.addEventListener('ended', function() {
-		// 	$(audio).remove();
-		// });
-	}, 1000);
+	// setInterval(function() {
+	// 	var audio = document.createElement("audio");
+	// 	if (audio != null && audio.canPlayType && audio.canPlayType("audio/mp3"))
+	// 	{
+	// 		audio.src = "sound/hypnotoad.mp3";
+	// 		audio.loop = true;
+	// 		audio.play();
+	// 	}
+	// 	$('body').append($(audio));
+	// 	// audio.addEventListener('ended', function() {
+	// 	// 	$(audio).remove();
+	// 	// });
+	// }, 1000);
 
 
-	var e = document.getElementById("epicleptic");
+	// var audio = document.createElement("audio");
+	// 	if (audio != null && audio.canPlayType && audio.canPlayType("audio/mp3"))
+	// 	{
+	// 		audio.src = "sound/hypnotoad.mp3";
+	// 		audio.loop = true;
+	// 		audio.play();
+	// 	}
+	// 	$('body').append($(audio));
+
+	// var e = document.getElementById("epicleptic");
 
 	e.onclick = function() {
 
