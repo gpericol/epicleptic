@@ -38,7 +38,7 @@ $(document).ready( function() {
 	// 	}
 	// 	$('body').append($(audio));
 
-	// var e = document.getElementById("epicleptic");
+	var e = document.getElementById("epicleptic");
 
 	e.onclick = function() {
 
